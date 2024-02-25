@@ -4,6 +4,8 @@
 
 Get the latest `one-container` Docker image at https://hub.docker.com/r/korikori/pihole-unbound.
 
+***
+
 This repo has 2 different `docker-compose` configs-- choose your favorite. The `two-container` config may work better on Synology due to usage of `macvlan` networking which helps prevent port conflicts with the host.
 
 - [`one-container`](one-container/) (new) - Install Unbound directly into the Pi-Hole container
